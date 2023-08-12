@@ -1,0 +1,12 @@
+type Query {
+  movies: [Movie]
+}
+
+type Movie {
+  id: ID!
+  name: String
+  description: String
+  image: String
+  inTheaters: Boolean
+  genres: [String]
+}
