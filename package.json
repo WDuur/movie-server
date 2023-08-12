@@ -1,0 +1,17 @@
+{
+  "name": "movie-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.1",
+    "fakebase": "^0.3.0",
+    "graphql": "^16.7.1"
+  }
+}
